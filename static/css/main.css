@@ -1,0 +1,32 @@
+.choosed-thumb {
+    border: 5px solid #cae724;
+}
+
+.scroller-at-bottom .preview-box {
+    border: 1px solid #cae724;
+    width: 500px;
+    height: 500px;
+    margin-left: 5px;
+    margin-right: 5px;
+    object-fit: scale-down;
+}
+
+.scroller-at-left .preview-box {
+    border: 1px solid #cae724;
+    width: 500px;
+    height: 500px;
+    margin-left: 5px;
+    margin-right: 5px;
+    object-fit: scale-down;
+}
+
+.zoomer-control {
+    max-width: 43px !important;
+}
+
+.scroller-at-top .thumb-list .responsive-image[data-v-033bd07e],
+.scroller-at-bottom .thumb-list .responsive-image[data-v-033bd07e] {
+    height: 200px;
+    width: 200px;
+    object-fit: scale-down;
+}
